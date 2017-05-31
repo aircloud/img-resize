@@ -1,0 +1,34 @@
+{
+  "name": "img-resize",
+  "version": "0.1.1",
+  "description": "a tool which is used to resize the size of pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "jpeg",
+    "png"
+  ],
+  "maintainers": [
+    {
+      "name": "Xiaotao Nie",
+      "email": "onlythen@yeah.net"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Xiaotao Nie",
+      "email": "onlythen@yeah.net"
+    }
+  ],
+  "author": "Xiaotao Nie",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.17.3"
+  },
+  "bin": {
+    "img-resize": "./index.js"
+  }
+}
